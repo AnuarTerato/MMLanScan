@@ -28,4 +28,3 @@ let package = Package(
             dependencies: []),
     ]
 )
- No newline at end of file
