@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "MMLanScanner",
     platforms: [
-        .iOS(.v13),
+        .iOS(.v12),
         .macOS(.v11)
     ],
     targets: [
