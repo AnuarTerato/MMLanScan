@@ -4,16 +4,16 @@
 import PackageDescription
  
 let package = Package(
-    name: "LanScanner",
+    name: "MMLanScanner",
     products: [
         .library(
-            name: "LanScanner",
+            name: "MMLanScanner",
             targets: ["LanScanner"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "LanScanner",
+            name: "MMLanScanner",
             dependencies: ["LanScanInternal"]
         ),
         .target(
