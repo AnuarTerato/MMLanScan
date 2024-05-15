@@ -13,7 +13,8 @@ let package = Package(
     dependencies: [],
     targets: [
         .target(
-            name: "MMLanScanner"
+            name: "MMLanScanner",
+            path: "Sources")
         )
     ]
 )
