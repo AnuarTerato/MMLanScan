@@ -11,7 +11,6 @@ let package = Package(
             path: "Sources")
     ],
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "MMLanScanner",
             targets: ["MMLanScanner"])
