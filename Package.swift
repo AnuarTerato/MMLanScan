@@ -4,10 +4,10 @@
 import PackageDescription
  
 let package = Package(
-    name: "MMLanScanner",
+    name: "LanScanner",
     products: [
         .library(
-            name: "MMLanScanner",
-            targets: ["MMLanScanner"]),
+            name: "LanScanner",
+            targets: ["LanScanner"]),
     ]
 )
