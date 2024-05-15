@@ -8,6 +8,6 @@ let package = Package(
     products: [
         .library(
             name: "MMLanScanner",
-            targets: ["LanScanner"]),
+            targets: ["MMLanScanner"]),
     ]
 )
