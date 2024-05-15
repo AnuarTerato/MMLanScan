@@ -9,10 +9,5 @@ let package = Package(
         .target(
             name: "MMLanScanner",
             path: "Sources")
-    ],
-    products: [
-        .library(
-            name: "MMLanScanner",
-            targets: ["MMLanScanner"])
     ]
 )
