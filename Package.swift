@@ -9,22 +9,5 @@ let package = Package(
         .library(
             name: "MMLanScanner",
             targets: ["LanScanner"]),
-    ],
-    dependencies: [],
-    targets: [
-        .target(
-            name: "MMLanScanner",
-            dependencies: ["LanScanInternal"]
-        ),
-        .target(
-            name: "LanScanInternal",
-            dependencies: [],
-            resources: [
-                .process("Resources")
-            ]
-        ),
-        .testTarget(
-            name: "LanScannerTests",
-            dependencies: []),
     ]
 )
