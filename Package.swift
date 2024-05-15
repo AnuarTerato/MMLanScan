@@ -5,12 +5,6 @@ import PackageDescription
 
 let package = Package(
     name: "MMLanScanner",
-    products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
-        .library(
-            name: "MMLanScanner",
-            targets: ["MMLanScanner"]),
-    ],
     platforms: [
         .iOS(.v11),
         .macOS(.v11)
@@ -21,4 +15,3 @@ let package = Package(
             path: "Sources")
     ]
 )
-
