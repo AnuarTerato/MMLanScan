@@ -10,7 +10,7 @@ let package = Package(
         .library(
             name: "MMLanScanner",
             targets: ["MMLanScanner"]),
-    ]
+    ],
     platforms: [
         .iOS(.v11),
         .macOS(.v11)
