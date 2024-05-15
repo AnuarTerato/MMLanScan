@@ -4,11 +4,11 @@
 import PackageDescription
  
 let package = Package(
-    name: "LanScanner",
+    name: "MMLanScanner",
     products: [
         .library(
-            name: "LanScanner",
-            targets: ["LanScanner"])
+            name: "MMLanScanner",
+            targets: ["MMLanScanner"])
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
