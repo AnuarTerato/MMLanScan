@@ -1,10 +1,8 @@
-// swift-tools-version:4.2
-// The swift-tools-version declares the minimum version of Swift required to build this package.
-
+// swift-tools-version:5.3
 import PackageDescription
 
 let package = Package(
-    name: "MMLanScanner",
-    targets: [.target(name: "MMLanScanner", path: "Sources")
-    ]
-)
+  name: "Lottie",
+  platforms: [.iOS("11.0"), .macOS("10.10"), .tvOS("11.0")],
+  products: [.library(name: "MMLanScanner", targets: ["MMLanScanner"])],
+  targets: [.target(name: "MMLanScanner", path: "Sources")])
